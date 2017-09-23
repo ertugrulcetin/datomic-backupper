@@ -1,6 +1,6 @@
 # Datomic Backupper
 
-Backups your Datomic Database to your S3 bucket or your file system
+Backups your Datomic Database regularly to your S3 bucket or your file system
 
 ## Usage(for AWS)
 
