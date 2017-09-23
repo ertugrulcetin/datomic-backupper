@@ -1,0 +1,14 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "datomicbackupper",
+    "Update": "true"
+  },
+  "Volumes": [
+    {
+      "HostDirectory": "/var/app",
+      "ContainerDirectory": "/var/app"
+    }
+  ],
+  "Logging": "/var/log/nginx"
+}
