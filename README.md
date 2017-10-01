@@ -10,7 +10,7 @@ Backs up your Datomic Database regularly to your S3 bucket or your file system
 4. lein uberjar
 5. move datomic-backupper.jar to deployment folder
 6. configure your AWS credentials in Dockerfile
-7. zip everything in deployment directory(cd deployment -> zip datomic-backuper.zip -r datomic datomic-backuper.jar Dockerfile Dockerrun.aws.json)
+7. zip everything in deployment directory(cd deployment -> zip datomic-backupper.zip -r datomic datomic-backuper.jar Dockerfile Dockerrun.aws.json)
 8. upload zip to AWS(EC2 or Elastic Beanstalk, you need instance with at least 2GB of RAM)
 
 ## Usage(for Local Machine)
